@@ -1,0 +1,31 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Make Your Own</title>
+            <link rel="stylesheet" type="text/css" href="style.css"> 
+        </head>
+        <body>
+            <div class="intro">
+                <h1>This is Me!</h1>
+            </div>
+
+            <button id="btn">Click Me!</button>
+            <script>
+                
+                let clicker = document.getElementById("btn");
+                let func =  function click(){
+                    alert("You clicked me! Bitch");
+                }
+
+                clicker.onclick = func;
+
+
+                
+            </script>
+                
+                
+        </body>
+    </html>
